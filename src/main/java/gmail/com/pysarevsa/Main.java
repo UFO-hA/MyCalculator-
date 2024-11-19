@@ -5,18 +5,18 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-import static java.lang.Math.sqrt;
+
 
 public class Main {
     public static void main(String[] args) {
-        String HELLO = "Добрый день, я калькулятор. \nСписок поддерживаемых команд можно посмотреть по запросу \"911\"";
-        String warning = "Делитель не может быть равен \"0\". \nНа ноль, делить нельзя!!!";
-        String warning2 = "Допустимые действия - \"+\" \"-\"  \"/\"  \"*\"  \"sqrt\"";
+        String HELLO = "Здравствуйте, я калькулятор.";
+        //String warning = "Делитель не может быть равен \"0\". \nНа ноль, делить нельзя!!!";
+        //String warning2 = "Допустимые действия - \"+\" \"-\"  \"/\"  \"*\"  \"sqrt\"";
         String help = "Тут будут инструкции";
         String otvet = "Результат = ";
         String number1 = "Введите первое значение:";
         String number2 = "Введите второе значение:";
-        String znak = "Введите действие: [-] [+]  [/] [*] [sqrt]";
+        String znak = "Введите действие: [-] [+] [/] [*] [sqrt]";
         String checkPattern = "^[+\\-\\*/sqrt]+$";
         String textkoren = "Корень числа ";
 
