@@ -3,6 +3,7 @@ package gmail.com.pysarevsa;
 import static java.lang.Math.sqrt;
 
 public class Calculator { // калькулятор
+    public static int test = 1;
     public static float runCalculate(float first, String simvol, float second) {
 
         switch (simvol) { //тело вычислителя
