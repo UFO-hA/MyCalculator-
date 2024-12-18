@@ -6,7 +6,6 @@ import java.util.Scanner;
 import java.util.regex.Pattern;
 
 
-
 public class Main {
     public static void main(String[] args) {
         String HELLO = "Здравствуйте, я калькулятор.";
@@ -79,10 +78,8 @@ public class Main {
         }
 
         float resalt = Calculator.runCalculate(first, simvol, second);
-
         System.out.println(otvet + resalt);
-int o = Calculator.test;
-        System.out.println(o);
+        in.close();
 
 
     }
